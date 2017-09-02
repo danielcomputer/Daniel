@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openFacebook(View view){
-        String url = "http://www.facebook.com/daniel archibong";
+        String url = "http://www.facebook.com/archibongdaniel";
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
         startActivity(i);

@@ -100,6 +100,7 @@
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:layout_marginLeft="25dp"
+            android:onClick="openFacebook"
             android:paddingRight="20dp"
             android:src="@drawable/facebook" />
 
@@ -109,6 +110,7 @@
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:paddingRight="5dp"
+            android:onClick="openTwitter"
             android:src="@drawable/twiter"/>
 
 
@@ -117,6 +119,7 @@
             android:layout_toRightOf="@id/twit_img"
             android:layout_width="90dp"
             android:layout_height="90dp"
+            android:onClick="openEmail"
             android:layout_marginRight="25dp"
             android:src="@drawable/gmail"/>
 
